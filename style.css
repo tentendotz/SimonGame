@@ -3,6 +3,13 @@ body {
   background-color: #011F3F;
 }
 
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
 .red {
   background-color: red;
 }
