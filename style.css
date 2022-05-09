@@ -25,7 +25,10 @@ body {
   border-radius: 20%;
 }
 
-
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
 
 .red {
   background-color: red;
