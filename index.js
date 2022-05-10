@@ -1,3 +1,4 @@
-$("document").ready(function () {
-  $("h1").css("color", "red");
-});
+var buttonColours = ["red", "blue", "green", "yellow"];
+
+var level = 0;
+
