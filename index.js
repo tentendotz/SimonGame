@@ -16,6 +16,8 @@ $(".btn").click(function () {
   var userChosenColor = $(this).attr("id");
   userClickedPattern.push(userChosenColor);
 
+  playSound(userChosenColour);
+  animatePress(userChosenColour);
 });
 
 
