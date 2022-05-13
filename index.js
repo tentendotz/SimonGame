@@ -33,6 +33,13 @@ function nextSequence() {
   playSound(randomChosenColor);
 }
 
+function animatePress(currentColour) {
+  $("#" + currentColour).addClass("pressed");
+  setTimeout(function () {
+    $("#" + currentColour).removeClass("pressed");
+  }, 100);
+}
+
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
