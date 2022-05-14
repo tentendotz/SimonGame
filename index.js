@@ -33,6 +33,9 @@ function checkAnswer(currentLevel) {
     console.log("wrong");  // for Debug
     playSound("wrong");
     
+
+    $("#level-title").text("Game Over, Press Any Key to Restart");
+    
   }
 }
 
