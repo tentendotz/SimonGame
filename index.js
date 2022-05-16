@@ -39,6 +39,7 @@ function checkAnswer(currentLevel) {
     }, 200);
     $("#level-title").text("Game Over, Press Any Key to Restart");
 
+    startOver();
   }
 }
 
@@ -66,4 +67,9 @@ function animatePress(currentColour) {
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
+}
+
+function startOver() {
+  level = 0;
+  gamePattern = [];
 }
